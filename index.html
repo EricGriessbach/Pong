@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Collision Game</title>
+    <style>
+        canvas {
+            background-color: #f0f0f0;
+            display: block;
+            margin: 0 auto;
+        }
+        #gameCanvas {
+            float: left;
+        }
+        
+        #collisionCanvas {
+            float: left;
+            margin-left: 20px;
+        }
+        
+        #postCollisionCanvas {
+            float: left;
+            margin-left: 20px;
+        }
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <canvas id="collisionCanvas" width="400" height="400"></canvas>    currentTime
+    <canvas id="postCollisionCanvas" width="400" height="400"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
